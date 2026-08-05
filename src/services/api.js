@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'role-app-backend-production.up.railway.app'
+  baseURL: 'https://role-app-backend-production.up.railway.app/api'
 });
 
 api.interceptors.request.use((config) => {
